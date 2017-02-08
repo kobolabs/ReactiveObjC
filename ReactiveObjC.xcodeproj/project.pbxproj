@@ -2796,6 +2796,7 @@
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = ReactiveObjC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				USER_HEADER_SEARCH_PATHS = ReactiveObjC/extobjc;
 			};
 			name = Debug;
@@ -2852,6 +2853,7 @@
 				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = ReactiveObjC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				USER_HEADER_SEARCH_PATHS = ReactiveObjC/extobjc;
 			};
 			name = Debug;
@@ -2922,6 +2924,7 @@
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = ReactiveObjC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				USER_HEADER_SEARCH_PATHS = ReactiveObjC/extobjc;
 			};
 			name = Profile;
@@ -2950,6 +2953,7 @@
 				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = ReactiveObjC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				USER_HEADER_SEARCH_PATHS = ReactiveObjC/extobjc;
 			};
 			name = Profile;
